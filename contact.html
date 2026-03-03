@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="YOUR NAME">
+    <meta name="description" content="Contact Hotique to ask questions or plan your next hotel and boutique spa experience.">
+    <title>Hotique | Contact</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <h1><a href="index.html">Hotique Resort</a></h1>
+
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Accommodations</a></li>
+          <li><a class="active" href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      
+      <img
+        class="hero"
+        src="images/dior.jpg"
+        width="1280"
+        height="500"
+        alt="A calm, scenic view representing the Hotique escape experience.">
+
+      <section class="intro">
+        <h2>Contact Us</h2>
+        <p>
+          Please reach out to us with any questions or concerns. We are happy to help you plan your dream
+          spa retreat.
+        </p>
+      </section>
+
+      
+      <section class="content-row2">
+        <img
+          src="images/forms.jpg"
+          width="560"
+          height="1200"
+          alt="A warm, relaxing scene representing a serene evening retreat.">
+
+        <div class="content-text">
+          <h3>Send a Message</h3>
+
+          <form method="post" action="https://wp.zybooks.com/form-viewer.php"></form>
+            <p>
+              <label for="fullname">Full Name *</label><br>
+              <input type="text" id="fullname" name="fullname" required>
+            </p>
+
+            <p>
+              <label for="email">Email Address *</label><br>
+              <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+              <label for="phone">Phone Number *</label><br>
+              <input type="tel" id="phone" name="phone" required>
+            </p>
+
+            <fieldset>
+              <legend>Preferred Contact Method *</legend>
+
+              <p>
+                <input type="radio" id="pref-email" name="preferred_contact" value="email" required>
+                <label for="pref-email">Email</label>
+              </p>
+
+              <p>
+                <input type="radio" id="pref-phone" name="preferred_contact" value="phone" required>
+                <label for="pref-phone">Phone</label>
+              </p>
+            </fieldset>
+
+            <p>
+              <label for="comments">Comments *</label><br>
+              <textarea id="comments" name="comments" rows="6" required></textarea>
+            </p>
+
+            <p>
+              <input type="submit" value="Submit">
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright &copy;2023 - Hotique</p>
+      <p>This site is for educational purposes only</p>
+    </footer>
+
+  </div>
+</body>
+</html>

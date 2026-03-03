@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #111;
+  background: #ffffff;
+}
+
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #111;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  padding: 6px 8px;
+}
+
+nav a:hover {
+  color: #0f2f7a;
+}
+
+nav a:focus {
+  outline: 2px solid #111;
+  outline-offset: 3px;
+}
+
+nav a.active,
+nav a[aria-current="page"] {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hero {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 40px 0;
+  border: 10px solid #000; 
+}
+
+.intro {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 50px;
+}
+
+.intro h2 {
+  margin: 0 0 16px;
+  font-size: 2rem;
+}
+
+.intro p {
+  margin: 0;
+}
+
+.content-row {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.content-row2 {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.content-row2 img {
+  width: 100%;
+  max-width: 560px;   
+  height: 100%;     
+  object-fit: cover;  
+  border: 10px solid #000; 
+}
+
+.content-row img {
+  width: 100%;
+  max-width: 300px;   
+  height: 100%;     
+  object-fit: cover;  
+  border: 10px solid #000; 
+}
+
+.content-text {
+  flex: 1;          
+}
+
+.content-text h3 {
+  margin: 0 0 12px;
+  font-size: 1.4rem;
+}
+
+.content-text p {
+  margin: 0;
+}
+
+footer {
+  background-image: url("images/footer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 0;
+  margin-top: 40px;
+  position: relative;
+  border: 10px solid #000; 
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+footer p {
+  position: relative;
+  z-index: 1;
+  margin: 6px 0;
+}
+
+label {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+
+  border: 1px solid #000;
+  background-color: #ffffff;
+
+  margin-bottom: 14px;
+}
+
+form {
+  width: 100%;      
+  max-width: none;  
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #000;
+  box-shadow: 0 0 0 1px #000;
+}
+
+fieldset {
+  border: 1px solid #000;
+  padding: 12px;
+  margin-bottom: 18px;
+}
+
+legend {
+  font-weight: 600;
+  padding: 0 6px;
+}
+
+fieldset p {
+  margin: 6px 0;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  border: none;
+
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #222;
+}
+
+input[type="submit"]:focus {
+  outline: 2px solid #000;
+  outline-offset: 3px;
+}
